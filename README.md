@@ -39,6 +39,6 @@ You can customize the quiz questions by modifying the questions.js file. Simply 
 ```bash
 git clone https://github.com/your-username/QUIZ-HTML-CSS-JS.git
 cd QUIZ-HTML-CSS-JS
-
+```
 ### License
 This project is licensed under the MIT License.
