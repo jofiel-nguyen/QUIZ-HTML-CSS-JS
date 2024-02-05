@@ -1,0 +1,43 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz for HTML CSS Javascript</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <main>
+        <header class="header">
+            <a href="#" class="logo">Jophicone App</a>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
+        <div id="quiz-container">
+            <button id="start-button">Start</button>
+            <!-- Quiz content will be dynamically added here -->
+        </div>
+
+        <div class="buttons-container">
+            <button id="prev-button" style="display: none;">Previous</button>
+            <button id="next-button" style="display: none;">Next</button>
+        </div>
+        
+        <button id="submit-button" style="display: none;">Submit</button>
+
+        <div id="result-container">
+            <!-- Quiz result will be displayed here after submission -->
+        </div>
+    </main>
+
+    <script src="./assets/questions.js" type="module"></script>
+    <script src="./assets/scripts.js" type="module"></script>
+</body>
+</html>
