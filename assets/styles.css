@@ -1,5 +1,3 @@
-/* styles.css */
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
@@ -13,11 +11,11 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrollbar on smaller screens */
 }
 
 main {
-    max-width: 800px;
-    margin: 0 auto;
+    width: 100%; /* Make sure main takes up the full width */
     padding: 20px;
 }
 
@@ -61,6 +59,7 @@ nav a:hover {
 .buttons-container {
     margin-top: 10px;
     display: flex;
+    justify-content: flex-start; /* Align buttons to the start */
 }
 
 button {
@@ -91,4 +90,11 @@ button:hover {
 /* Display buttons on the same line */
 button {
     display: inline-block;
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 600px) {
+    .buttons-container {
+        flex-direction: column; /* Stack buttons vertically on small screens */
+    }
 }
