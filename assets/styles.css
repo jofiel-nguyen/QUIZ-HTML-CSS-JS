@@ -74,6 +74,16 @@ nav a:hover {
     line-height: 1.5;
     margin: auto;
 }
+.about-content {
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px; /* Add rounded corners for a nicer look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow for depth */
+}
+
 
 /* Style for the Start button */
 #start-button {
@@ -151,6 +161,9 @@ footer{
         font-style: italic;
         font-display:inherit;
         color:rgb(217, 190, 190);
+        text-align: left;
+    }
+    .about-content {
         text-align: left;
     }
 }
