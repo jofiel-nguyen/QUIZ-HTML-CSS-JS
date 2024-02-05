@@ -128,10 +128,26 @@ button:hover {
 button {
     display: inline-block;
 }
-
+footer{
+    background-color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-display:inherit;
+    color:brown;
+    text-align: center;
+}
 /* Media Query for responsiveness */
 @media screen and (max-width: 600px) {
     .buttons-container {
         flex-direction: column; /* Stack buttons vertically on small screens */
+        
+    }
+    footer{
+        background-color: rgb(0, 10, 7);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+        font-display:inherit;
+        color:rgb(217, 190, 190);
+        text-align: left;
     }
 }
