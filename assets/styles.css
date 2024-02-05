@@ -122,7 +122,17 @@ button:hover {
     margin-top: 20px;
     font-weight: bold;
     font-size: 1.2em;
+    color: #ecf0f1;
+    display: block;
+    background-color: rgb(201, 110, 36);
+
+    /* Set fixed width and height for the square */
+    width: 200px; /* Adjust the width as needed */
+    height:50px; /* Set the same height as the width for a square */
+    text-align: center; /* Center text horizontally */
+    line-height: 1.5; /* Improve vertical alignment of text */
 }
+
 
 /* Display buttons on the same line */
 button {
