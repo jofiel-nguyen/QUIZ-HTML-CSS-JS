@@ -73,6 +73,13 @@ function submitQuiz() {
      // Display the result
      resultContainer.textContent = `Your score: ${score} out of ${questions.length}`;
      hideQuizButtons(); // Optional: Hide the buttons after submission
+     // Apply dynamic styles to result container
+    resultContainer.style.display = "block";
+    resultContainer.style.width = "200px";  // Adjust the width as needed
+    resultContainer.style.height = "50px";  // Adjust the height as needed
+    resultContainer.style.textAlign = "center";
+    resultContainer.style.lineHeight = "1.5";
+    resultContainer.style.backgroundColor = "rgb(201, 110, 36)";
  }
  
 
